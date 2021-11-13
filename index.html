@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html class="hydrated" lang="en-US">
   <head>
     <!-- Character Set -->
     <meta charset="UTF-8" />
@@ -7,9 +7,9 @@
     <!-- displays site properly based on user's device -->
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+      content="width=device-width,initial-scale=1,maximum-scale=2"
     />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="true" />
 
     <!-- Favicon -->
@@ -54,20 +54,20 @@
     <div class="container">
       <div class="main-container">
         <div class="top-container">
-          <h1 class="title">Our Pricing</h1>
-          <div class="toggle-container">
+          <header class="title" role="banner">Our Pricing</header>
+          <nav class="toggle-container">
             <span class="duration">Annually</span>
             <div class="toggle">
               <div class="annually"></div>
               <div class="monthly"></div>
             </div>
             <span class="duration">Monthly</span>
-          </div>
+          </nav>
         </div>
-        <div class="bottom-container">
+        <main class="bottom-container" role="main">
           <div class="basic" tabindex="0">
             <div class="sub-title-container">
-              <h3 class="sub-title">Basic</h3>
+              <h2 class="sub-title">Basic</h2>
             </div>
             <div class="price-container">
               <span class="cur">&dollar;</span>
@@ -90,7 +90,7 @@
           </div>
           <div class="professional" tabindex="0" autofocus>
             <div class="sub-title-container">
-              <h3 class="sub-title">Professional</h3>
+              <h2 class="sub-title">Professional</h2>
             </div>
             <div class="price-container">
               <span class="cur">&dollar;</span>
@@ -113,7 +113,7 @@
           </div>
           <div class="master" tabindex="0">
             <div class="sub-title-container">
-              <h3 class="sub-title">Master</h3>
+              <h2 class="sub-title">Master</h2>
             </div>
             <div class="price-container">
               <span class="cur">&dollar;</span>
@@ -134,9 +134,9 @@
               >
             </div>
           </div>
-        </div>
+        </main>
       </div>
-      <footer class="attr-container">
+      <footer class="attr-container" role="contentinfo">
         <p class="attr">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html class="hydrated" lang="en-US">
   <head>
-    <!-- Character Set -->
     <meta charset="UTF-8" />
-
-    <!-- displays site properly based on user's device -->
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=2"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="HandheldFriendly" content="true" />
 
     <!-- Favicon -->
@@ -21,21 +14,12 @@
     />
 
     <!-- My personal font awesome 5 kit -->
-    <script
-      src="https://kit.fontawesome.com/ddc4c3e78e.js"
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
-    ></script>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Ion Icons -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
+    />
 
     <title>Frontend Mentor | Pricing Component with Toggle</title>
 
@@ -51,102 +35,105 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="main-container">
-        <div class="top-container">
-          <header class="title" role="banner">Our Pricing</header>
-          <nav class="toggle-container">
-            <span class="duration">Annually</span>
-            <div class="toggle">
-              <div class="annually"></div>
-              <div class="monthly"></div>
-            </div>
-            <span class="duration">Monthly</span>
-          </nav>
+    <header class="top-container">
+      <h1 class="title" role="banner">Our Pricing</h1>
+      <nav class="toggle-container">
+        <span class="duration">Annually</span>
+        <div class="toggle">
+          <div class="annually"></div>
+          <div class="monthly"></div>
         </div>
-        <main class="bottom-container" role="main">
-          <div class="basic" tabindex="0">
-            <div class="sub-title-container">
-              <h2 class="sub-title">Basic</h2>
-            </div>
-            <div class="price-container">
-              <span class="cur">&dollar;</span>
-              <span id="basic-price" class="amt">19.99</span>
-            </div>
-            <div class="features-container">
-              <span class="features">500 GB Storage</span>
-            </div>
-            <div class="features-container">
-              <span class="features">2 Users Allowed</span>
-            </div>
-            <div class="features-container">
-              <span class="features">Send up to 3 GB</span>
-            </div>
-            <div class="link-container">
-              <a href="#" class="learn-more" tabindex="0"
-                ><span>LEARN MORE</span></a
-              >
-            </div>
-          </div>
-          <div class="professional" tabindex="0" autofocus>
-            <div class="sub-title-container">
-              <h2 class="sub-title">Professional</h2>
-            </div>
-            <div class="price-container">
-              <span class="cur">&dollar;</span>
-              <span id="prof-price" class="amt">24.99</span>
-            </div>
-            <div class="features-container">
-              <span class="features">1 TB Storage</span>
-            </div>
-            <div class="features-container">
-              <span class="features">5 Users Allowed</span>
-            </div>
-            <div class="features-container">
-              <span class="features">Send up to 10 GB</span>
-            </div>
-            <div class="link-container">
-              <a href="#" class="learn-more" tabindex="0"
-                ><span>LEARN MORE</span></a
-              >
-            </div>
-          </div>
-          <div class="master" tabindex="0">
-            <div class="sub-title-container">
-              <h2 class="sub-title">Master</h2>
-            </div>
-            <div class="price-container">
-              <span class="cur">&dollar;</span>
-              <span id="master-price" class="amt">39.99</span>
-            </div>
-            <div class="features-container">
-              <span class="features">2 TB Storage</span>
-            </div>
-            <div class="features-container">
-              <span class="features">10 Users Allowed</span>
-            </div>
-            <div class="features-container">
-              <span class="features">Send up to 20 GB</span>
-            </div>
-            <div class="link-container">
-              <a href="#" class="learn-more" tabindex="0"
-                ><span>LEARN MORE</span></a
-              >
-            </div>
-          </div>
-        </main>
-      </div>
-      <footer class="attr-container" role="contentinfo">
-        <p class="attr">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://twitter.com/miikeattah" target="_blank">Mike Attah</a
-          >.
-        </p>
-      </footer>
-    </div>
+        <span class="duration">Monthly</span>
+      </nav>
+    </header>
+    <main class="bottom-container" role="main">
+      <section class="basic" tabindex="0">
+        <div class="sub-title-container">
+          <h2 class="sub-title">Basic</h2>
+        </div>
+        <div class="price-container">
+          <span class="cur">&dollar;</span>
+          <span id="basic-price" class="amt">19.99</span>
+        </div>
+        <div class="features-container">
+          <span class="features">500 GB Storage</span>
+        </div>
+        <div class="features-container">
+          <span class="features">2 Users Allowed</span>
+        </div>
+        <div class="features-container">
+          <span class="features">Send up to 3 GB</span>
+        </div>
+        <div class="link-container">
+          <a href="#" class="learn-more" tabindex="0"
+            ><span>LEARN MORE</span></a
+          >
+        </div>
+      </section>
+      <section class="professional" tabindex="0" autofocus>
+        <div class="sub-title-container">
+          <h2 class="sub-title">Professional</h2>
+        </div>
+        <div class="price-container">
+          <span class="cur">&dollar;</span>
+          <span id="prof-price" class="amt">24.99</span>
+        </div>
+        <div class="features-container">
+          <span class="features">1 TB Storage</span>
+        </div>
+        <div class="features-container">
+          <span class="features">5 Users Allowed</span>
+        </div>
+        <div class="features-container">
+          <span class="features">Send up to 10 GB</span>
+        </div>
+        <div class="link-container">
+          <a href="#" class="learn-more" tabindex="0"
+            ><span>LEARN MORE</span></a
+          >
+        </div>
+      </section>
+      <section class="master" tabindex="0">
+        <div class="sub-title-container">
+          <h2 class="sub-title">Master</h2>
+        </div>
+        <div class="price-container">
+          <span class="cur">&dollar;</span>
+          <span id="master-price" class="amt">39.99</span>
+        </div>
+        <div class="features-container">
+          <span class="features">2 TB Storage</span>
+        </div>
+        <div class="features-container">
+          <span class="features">10 Users Allowed</span>
+        </div>
+        <div class="features-container">
+          <span class="features">Send up to 20 GB</span>
+        </div>
+        <div class="link-container">
+          <a href="#" class="learn-more" tabindex="0"
+            ><span>LEARN MORE</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="attr-container" role="contentinfo">
+      <p class="attr">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://twitter.com/miikeattah"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mike Attah</a
+        >.
+      </p>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

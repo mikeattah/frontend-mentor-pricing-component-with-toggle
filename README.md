@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/javascript-addeventlistener-html-autofocus-css-pseudo-classes-wO_ySsos_)
-- Live Site URL: [GitHub Pages](https://mikeattah.github.io/pricing-component-with-toggle/)
+- View Submission: [Frontend Mentor](https://www.frontendmentor.io/solutions/javascript-addeventlistener-html-autofocus-css-pseudo-classes-wO_ySsos_)
+- View Site: [GitHub Pages](https://mikeattah.github.io/frontend-mentor-pricing-component-with-toggle/)
 
 ## My process
 
